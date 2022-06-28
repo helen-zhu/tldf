@@ -2,7 +2,7 @@ from df_row import DfRow
 
 
 def test_construct_with_single_value():
-    df = DfRow(a=[1])
+    df = DfRow(a={"a" : 1})
     assert df.get("a", 0) == 1
 
 
